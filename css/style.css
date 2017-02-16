@@ -1,5 +1,5 @@
   
-  .navbar {
+.navbar {
     background-color: #002966;
     border-style: solid;
     border-color: black;
@@ -23,7 +23,7 @@
     font-family: 'Libre Baskerville', serif;  
 }
   
-  .anchors {
+.anchors {
     font-size: 20px;
     padding: 1em;
     font-family: 'Quicksand', sans-serif;
@@ -37,11 +37,11 @@
    padding-left: 10em;
    padding-right: 10em;
    font-family: 'Josefin Sans', sans-serif;
-    padding-top: 15em;
-    height: 50em;
+   padding-top: 5em;
+   height: 35em;
   }
   
-  #desc {
+#desc {
     font-size: 2em;
     vertical-align: top;
     background-color: white;
@@ -53,8 +53,8 @@
   }
   
   #pic1 {
-    width: 10em;
-    height: 10em;
+    width: 15em;
+    height: 15em;
     border: 1px solid black;
     border-radius: 300px;
     margin-bottom: 1em;
@@ -94,6 +94,29 @@
     padding-top: 30px;
     padding-left: 100px;
     padding-right: 10%;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.imgwrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;  
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .codePen {

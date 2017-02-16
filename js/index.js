@@ -1,6 +1,5 @@
 $(document).ready(function(){ 
   $(window).scroll(function () {  
-      console.log($(window).scrollTop())
     if ($(window).scrollTop() > -1) {
       $('.navbar').addClass('navbar-fixed');
     }
@@ -8,4 +7,15 @@ $(document).ready(function(){
       $('.navbar').removeClass('navbar-fixed');
     }
   });
+  
+  //Contact variables
+  var name = $("#leavenamehere").val();
+  var email = $("#leaveemailhere").val();
+  var phone = $("#leavephonehere").val();
+  var message = $("#leavemessagehere").val();
+  
+  $("#send").on('click', function() {
+    console.log(name + email + phone + message);
+  })
+  
 })
