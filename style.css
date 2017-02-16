@@ -38,7 +38,7 @@
    padding-right: 10em;
    font-family: 'Josefin Sans', sans-serif;
    padding-top: 5em;
-   height: 35em;
+   height: 45em;
   }
   
 #desc {
@@ -128,7 +128,7 @@
   
   .contact {
     background-color: white;
-    height: 400px;
+    height: 45em;
     border-style: solid;
     border-color: black;
     border-width: 3px;
