@@ -33,7 +33,11 @@
   }
 
   .bio {
-   background-image: url("http://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg");
+   background: url("http://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
    padding-left: 10em;
    padding-right: 10em;
    font-family: 'Josefin Sans', sans-serif;
@@ -119,7 +123,7 @@
   
   .contact {
     background-color: white;
-    height: 25em;
+    height: 30em;
     border-style: solid;
     border-color: black;
     border-width: 3px;
@@ -141,7 +145,7 @@
   }
   
 
-#email, #phone {
+#email, #phone, #facebook {
   font-size: 20px;
   font-family: 'Libre Baskerville', serif; 
   text-align: center;
