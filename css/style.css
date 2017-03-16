@@ -72,7 +72,7 @@
     /*border-style: solid;
     border-color: black;
     border-width: 4px;*/
-    height: 80em;
+    height: 105em;
     color: black;
   }
   
@@ -140,6 +140,8 @@
   #intouch {
     color: black;
     padding-top: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
     text-align: center;
     font-family: 'Libre Baskerville', serif; 
   }
