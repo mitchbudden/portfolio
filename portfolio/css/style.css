@@ -1,0 +1,163 @@
+  
+.navbar {
+    background-color: #002966;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    height-max: 5em;
+    margin-bottom: 0;
+
+  }
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+  
+  #mitch {
+    color: white;
+    font-size: 30px;
+    padding-left: 1em;
+    font-family: 'Libre Baskerville', serif;  
+}
+  
+.anchors {
+    font-size: 20px;
+    padding: 1em;
+    font-family: 'Quicksand', sans-serif;
+    pull: right;
+    max-width: 100%;
+    vertical-align: top;
+  }
+
+  .bio {
+   background: url("http://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   padding-left: 10em;
+   padding-right: 10em;
+   font-family: 'Josefin Sans', sans-serif;
+   padding-top: 5em;
+   height: 45em;
+  }
+  
+#desc {
+    font-size: 2em;
+    vertical-align: top;
+    background-color: white;
+    padding: 2em;
+    border: 1px solid black;
+    border-radius: 80px;
+    font-family: 'Quattrocento', serif;
+
+  }
+  
+  #pic1 {
+    width: 15em;
+    height: 15em;
+    border: 1px solid black;
+    border-radius: 300px;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-top: 5em;
+ 
+  }
+  
+  .portfolio {
+    background-color: white;
+    /*border-style: solid;
+    border-color: black;
+    border-width: 4px;*/
+    height: 105em;
+    color: black;
+  }
+  
+  #port {
+    text-align: center;
+    color: black;
+    padding-top: 1em;
+    font-family: 'Libre Baskerville', serif;  
+  }
+
+.imgs {
+    width: 100%;
+    height: 20em;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 10%;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.imgwrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;  
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.codePen {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Libre Baskerville', serif;  
+}
+  
+  .contact {
+    background-color: white;
+    height: 30em;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding-top: ;
+  }
+  
+  #cme {
+    text-align: center;
+    color: black;
+    padding-top: 1em;
+    font-family: 'Libre Baskerville', serif;  
+  }
+
+  #intouch {
+    color: black;
+    padding-top: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif; 
+  }
+  
+
+#email, #phone, #facebook {
+  font-size: 20px;
+  font-family: 'Libre Baskerville', serif; 
+  text-align: center;
+  padding-top: 0.5em;
+}
+  
+  .about {
+    padding: 25px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;  
+
+  }
+  
