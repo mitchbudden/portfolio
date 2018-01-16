@@ -7,7 +7,7 @@
     border-style: solid;
     border-color: black;
     border-width: 3px;
-    height-max: 5em;
+    height: 5em;
     margin-bottom: 0;
   }
 
@@ -43,19 +43,19 @@
 
   .bio {
     background-image: url("http://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg");
-    padding-left: 10em;
+    background-attachment: fixed;
     padding-right: 10em;
     font-family: 'Quicksand', sans-serif;
     padding-top: 5em;
-    height: 25em;
+    height: 50em;
   }
 
   #desc {
-    font-size: 24px;
+    font-size: 30px;
     padding: 20px;
     width: 30em;
     margin-left: 20%;
-    magin-top: 15%;
+    margin-top: 15%;
     vertical-align: top;
     background-color: white;
     border: 1px solid black;
