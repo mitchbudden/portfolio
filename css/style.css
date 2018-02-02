@@ -52,16 +52,13 @@
   }
 
   #desc {
-    font-size: 24px;
-    padding: 20px;
-    width: 30em;
-    margin-left: 20%;
-    magin-top: 15%;
-    vertical-align: top;
-    background-color: white;
-    border: 1px solid black;
+    padding-left: 3em;
+    padding-right: 3em;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
+    color: white;
+    text-shadow: 1px 2px black;
+    font-size: 40px;
   }
 
   #pic1 {
