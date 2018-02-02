@@ -43,6 +43,7 @@
 
   .bio {
     background-image: url("http://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg");
+    background-attachment: fixed;
     padding-left: 10em;
     padding-right: 10em;
     font-family: 'Quicksand', sans-serif;
