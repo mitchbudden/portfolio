@@ -104,6 +104,9 @@
     padding-top: 30px;
     padding-left: 100px;
     padding-right: 10%;
+    transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+    transition-duration: .5s;
+    transform: rotateY(0deg);
   }
 
   .imgDescription {
@@ -121,6 +124,9 @@
     visibility: hidden;
     opacity: 0;
     font-family: 'Quicksand', sans-serif;
+    transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+    transition-duration: .5s;
+    transform: rotateY(-180deg);
   }
 
   .imgwrap:hover .imgDescription {
@@ -129,6 +135,17 @@
     opacity: 1;  
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
+    box-shadow: 2px 2px black;
+    transform: rotateY(0deg);
+  }
+  
+  .imgwrap:hover .imgs{
+    opacity: 0;
+    transform: rotateY(180deg);
+  }
+  
+  .imgwrap:hover .codePen{
+    opacity: 0;
   }
 
   .codePen {
