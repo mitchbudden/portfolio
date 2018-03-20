@@ -1,232 +1,198 @@
-  
-@media(min-width: 1024px) {
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    background-color: #002966;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    height-max: 5em;
-    margin-bottom: 0;
-  }
-
-  .navbar-fixed {
-    top: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-  }
-
-  #mitch {
-    color: white;
-    font-size: 30px;
-    padding-left: 1em;
-    font-family: 'Quicksand', sans-serif;  
-  }
-
-  .anchors {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-    font-size: 20px;
-    padding: 1em;
-    padding-left: 10em;
-    font-family: 'Quicksand', sans-serif;
-    vertical-align: top;
-  }
-  
-  .tags {
-    width: 10em;
-    padding-left: 50px;  
-  }
-
-  .bio {
-    background-image: url("http://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg");
-    background-attachment: fixed;
-    padding-left: 10em;
-    padding-right: 10em;
-    font-family: 'Quicksand', sans-serif;
-    padding-top: 5em;
-    height: 40em;
-  }
-
-  #desc {
-    padding-left: 3em;
-    padding-right: 3em;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    color: white;
-    text-shadow: 1px 2px black;
-    font-size: 40px;
-  }
-
-  #pic1 {
-    width: 15em;
-    height: 15em;
-    border: 1px solid black;
-    border-radius: 300px;
-    margin-bottom: 1em;
-    margin-left: 5em;
-    margin-top: 5em;
-
-  }
-  
-  .portfolio-flex {
-    display: flex;
-    flex-direction: row;
-    align-content: stretch;
-    flex-wrap: wrap;
-  }
-
-  .portfolio {
-    background-color: white;
-    /*border-style: solid;
-    border-color: black;
-    border-width: 4px;*/
-    height: 80em;
-    color: black;
-    padding-left: 150px;
-    padding-right: 150px;
-  }
-
-  .header {
-    font-size: 40px;
-    text-align: center;
-    color: black;
-    padding-top: 10px;
-    font-family: 'Quicksand', sans-serif;  
-  }
-
-  .imgs {
-    width: 100%;
-    height: 20em;
-    padding-top: 30px;
-    padding-left: 100px;
-    padding-right: 10%;
-    transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-    transition-duration: .5s;
-    transform: rotateY(0deg);
-  }
-
-  .imgDescription {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding-top: 25%;
-    padding-left: 10%;
-    padding-right: 10%;
-    background: rgba(29, 106, 154, 0.72);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
-    font-family: 'Quicksand', sans-serif;
-    transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
-    transition-duration: .5s;
-    transform: rotateY(-180deg);
-  }
-
-  .imgwrap:hover .imgDescription {
-    text-shadow: 2px 2px black;
-    visibility: visible;
-    opacity: 1;  
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    box-shadow: 2px 2px black;
-    transform: rotateY(0deg);
-  }
-  
-  .imgwrap:hover .imgs{
-    opacity: 0;
-    transform: rotateY(180deg);
-  }
-  
-  .imgwrap:hover .codePen{
-    opacity: 0;
-  }
-
-  .codePen {
-    color: black;
-    text-align: center;
-    font-size: 15px;
-    font-family: 'Quicksand', sans-serif;  
-  }
-
-  .contact {
-    background-color: white;
-    height: 25em;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    padding-top: ;
-  }
-
-  .cme {
-    font-size: 20px;
-    text-align: center;
-    color: black;
-    padding-top: 1em;
-    font-family: 'Quicksand', sans-serif;  
-  }
-
-  #intouch {
-    color: black;
-    padding-top: 1em;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif; 
-  }
-
-  .about {
-    padding: 15px;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;  
-
-  }  
-  
-  .hr {
-    height: 5px;
-  }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #002966;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  height-max: 5em;
+  margin-bottom: 0;
 }
 
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+#mitch {
+  color: white;
+  font-size: 30px;
+  padding-left: 1em;
+  font-family: 'Quicksand', sans-serif;  
+}
+
+.anchors {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  font-size: 20px;
+  padding: 1em;
+  padding-left: 10em;
+  font-family: 'Quicksand', sans-serif;
+  vertical-align: top;
+}
+
+.tags {
+  width: 10em;
+  padding-left: 50px;  
+}
+
+.bio {
+  background-image: url("http://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg");
+  background-attachment: fixed;
+  opacity: 10%;
+  padding-right: 10em;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 15em;
+  height: 50em;
+}
+
+#desc {
+  padding-left: 3em;
+  padding-right: 3em;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px black;
+  font-size: 40px;
+}
+
+#pic1 {
+  width: 15em;
+  height: 15em;
+  border: 1px solid black;
+  border-radius: 300px;
+  margin-bottom: 1em;
+  margin-left: 5em;
+  margin-top: 5em;
+
+}
+
+.portfolio-flex {
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.portfolio {
+  background-color: white;
+  height: 80em;
+  color: black;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.header {
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  font-family: 'Quicksand', sans-serif;  
+}
+
+.imgs {
+  width: 100%;
+  height: 20em;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 10%;
+  transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+  transition-duration: .5s;
+  transform: rotateY(0deg);
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-family: 'Quicksand', sans-serif;
+  transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
+  transition-duration: .5s;
+  transform: rotateY(-180deg);
+}
+
+.imgwrap:hover .imgDescription {
+  text-shadow: 2px 2px black;
+  visibility: visible;
+  opacity: 1;  
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  box-shadow: 2px 2px black;
+  transform: rotateY(0deg);
+}
+
+.imgwrap:hover .imgs{
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+
+.imgwrap:hover .codePen{
+  opacity: 0;
+}
+
+.codePen {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;  
+}
+
+.contact {
+  background-color: white;
+  height: 25em;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+
+.cme {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding-top: 1em;
+  font-family: 'Quicksand', sans-serif;  
+}
+
+#intouch {
+  color: black;
+  padding-top: 1em;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+.about {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;  
+
+}  
+
+.hr {
+  height: 5px;
+}
 
 @media(max-width: 1024px) {
-    .navbar {
-    display: flex;
-    flex-direction: row;
-    background-color: #002966;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    height-max: 5em;
-    margin-bottom: 0;
-  }
-  
-  .navbar-fixed {
-    top: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%;    
-  }
-
   #mitch {
-    color: white;
     font-size: 18px;
-    padding-left: 1em;
-    font-family: 'Quicksand', sans-serif;  
   }
 
   .anchors {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
     font-size: 14px;
     padding: 1em;
     padding-left: 0em;
-    font-family: 'Quicksand', sans-serif;
-    vertical-align: top;
   }
   
   .tags {
@@ -236,25 +202,16 @@
   }
 
   .bio {
-    background-image: url("http://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016.jpg");
     padding-left: 10em;
     padding-right: 10em;
-    font-family: 'Quicksand', sans-serif;
     padding-top: 5em;
     height: 25em;
   }
 
   #desc {
-    font-size: 16px;
-    padding: 20px;
-    width: 15em;
-    margin-left: 10%;
-    magin-top: 5%;
-    vertical-align: top;
-    background-color: white;
-    border: 1px solid black;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 20px;
   }
 
   #pic1 {
@@ -321,7 +278,6 @@
     border-style: solid;
     border-color: black;
     border-width: 3px;
-    padding-top: ;
   }
 
   .cme {
