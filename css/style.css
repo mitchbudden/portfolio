@@ -249,7 +249,9 @@
   }
 
   .imgs {
-    display: none;
+    display: block;
+    height: 5em;
+    opacity: 0;
   }
 
   .imgDescription {
@@ -267,12 +269,14 @@
 
   .codePen {
     color: black;
-    text-align: center;
+    text-align: left;
     font-size: 15px;
-    font-family: 'Libre Baskerville', serif;     
+    font-family: 'Quicksand', sans-serif;     
     border: 2px solid black;
     box-shadow: 2px 2px black;
-    padding: 15px;
+    padding: 20px;
+    margin: 0;
+    height: 5em;
   }
 
   #contact {
