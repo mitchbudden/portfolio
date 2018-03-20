@@ -233,9 +233,6 @@
 
   .portfolio {
     background-color: white;
-    /*border-style: solid;
-    border-color: black;
-    border-width: 4px;*/
     height: 40em;
     color: black;
     padding-left: 50px;
@@ -259,7 +256,12 @@
   }
 
   .imgwrap:hover .imgDescription {
-    display: none;
+    font-size: 14px;
+    display: block;
+    opacity: 1;
+    vertical-align: text-top;
+    padding-top: 20px;
+    margin-top: 0;
   }
 
   .codePen {
