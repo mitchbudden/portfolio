@@ -187,6 +187,7 @@
 @media(max-width: 1024px) {
   #mitch {
     font-size: 18px;
+    margin-right: 15px;
   }
 
   .anchors {
@@ -202,8 +203,8 @@
   }
 
   .bio {
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 5em;
     height: 25em;
   }
